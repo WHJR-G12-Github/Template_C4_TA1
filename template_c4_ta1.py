@@ -17,13 +17,16 @@ yvel=3
 angle=0
 change=0
 
-# Creating a variable 'distance' and assigning value '5' to it
+# Create a variable 'distance' and assign value '5' to it
 
-# Creating a variable 'forward' and assigning 'False' to it
+# Create a variable 'forward' and assign 'False' to it
 
 
-# Defining a function 'newxy()' to calculate new x,y coordinates
+# Define a function 'newxy()' to calculate new x,y coordinates
 # New x,y coordinates are based on old x,y coordinates, angle, distance
+
+
+
 
 
 
@@ -41,10 +44,12 @@ while True:
        # Checking if UP arrow key is pressed and make 'forward' to True
        
         
+        
     if event.type == pygame.KEYUP:
       if event.key ==pygame.K_LEFT or event.key == pygame.K_RIGHT:
           change = 0
       # Check if UP arrow key is released and make 'forward' to False
+      
       
       
   

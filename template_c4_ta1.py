@@ -16,10 +16,10 @@ yvel=3
 angle=0
 change=0
 
-# Create a variable 'distance' and assign value '5' to it
-
-# Create a variable 'forward' and assign 'False' to it
-
+# Creating a variable 'distance' and assigning value '5' to it
+distance = 5
+# Creating a variable 'forward' and assigning 'False' to it
+forward = False
 
 # Define a function 'newxy()' to calculate new x,y coordinates
 # New x,y coordinates are based on old x,y coordinates, angle, distance
@@ -62,7 +62,7 @@ while True:
     yvel = -1*yvel
     
   # Check if 'forward' is 'True' 
-  
+  if forward:
       # Finding new x-coordinate by calling the 'newxy()' function
       # Pass 'player.x','player.y','distance','angle' as arguments inside brackets
       

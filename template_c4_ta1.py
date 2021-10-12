@@ -1,7 +1,6 @@
 import pygame,math
 
 pygame.init()
-clock=pygame.time.Clock()
 screen = pygame.display.set_mode((400,600))
 
 pygame.display.set_caption("Shooting Spaceship")
@@ -75,5 +74,5 @@ while True:
   pygame.draw.rect(screen,WHITE,enemy)
 
   pygame.display.update()
-  clock.tick(30)
+  pygame.time.Clock().tick(30)
   
